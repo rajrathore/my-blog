@@ -86,10 +86,7 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-disqus`,
-            options: {
-                shortname: `rajrathoreblog`,
-            },
+            resolve: `gatsby-theme-ghost-commento`,
         },
     ],
 }
