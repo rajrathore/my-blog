@@ -7,10 +7,10 @@ module.exports = {
     postsPerPage: 3,
 
     // This allows an alternative site title for meta data for pages.
-    siteTitleMeta: `Raj Rathore&#x27;s Blog`,
+    siteTitleMeta: `Raj Rathore's Blog`,
 
     // This allows an site description for meta data for pages.
-    siteDescriptionMeta: `A sneak peek into my life.... a programmer&#x27;s thoughts, stories and ideas.`,
+    siteDescriptionMeta: `A sneak peek into my life.... a programmer's thoughts, stories and ideas.`,
 
     // Change to the width and height of your default share image
     shareImageWidth: 1000,
