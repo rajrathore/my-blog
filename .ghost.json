@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://www.rajrathore.com",
+    "contentApiKey": "422888c55dd218c0123f69e6d3"
+  },
+  "production": {
+    "apiUrl": "https://www.rajrathore.com",
+    "contentApiKey": "422888c55dd218c0123f69e6d3"
+  }
+}
