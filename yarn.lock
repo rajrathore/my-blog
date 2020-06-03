@@ -7494,6 +7494,11 @@ gatsby-plugin-catch-links@^2.3.4:
     "@babel/runtime" "^7.10.2"
     escape-string-regexp "^1.0.5"
 
+gatsby-plugin-disqus@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.1.7.tgz#66910da8be1219ab861ac96400edbed5abe33812"
+  integrity sha512-7gAoSdXzFtVJ5TjTYJv/crgq8wfKavRIxhd2UHTgsbzp3EOwqygs7u1hiko2BwGFROjmmhzkdRqCquKdo7oywg==
+
 gatsby-plugin-feed@^2.5.4:
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.5.4.tgz#5d94956137496b31d8d0b4b2ff702a8da8694783"
@@ -7520,6 +7525,14 @@ gatsby-plugin-ghost-images@^1.1.3:
     "@babel/runtime" "7.8.7"
     gatsby-source-filesystem "^2.1.55"
     lodash "^4.17.15"
+
+gatsby-plugin-google-analytics@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.3.3.tgz#e86f67295853ab9f3e1d5ab24f17bce23e91694e"
+  integrity sha512-pOoMUvF4jzVwW9IksJLngG1zBRljCHxfpCczWUoJQBRU3gcy1syq1KBL/MWGXL1ATGrerdBFGJsiIXbFr6Qp2w==
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    minimatch "3.0.4"
 
 gatsby-plugin-manifest@^2.4.10:
   version "2.4.10"
@@ -10884,7 +10897,7 @@ minimatch@3.0.3:
   dependencies:
     brace-expansion "^1.0.0"
 
-minimatch@^3.0.3, minimatch@^3.0.4:
+minimatch@3.0.4, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
